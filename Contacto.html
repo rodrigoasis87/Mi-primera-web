@@ -30,47 +30,53 @@
       <h2>Formulario de suscripción =)</h2>
       <form>
         <div>
-        <label>Nombre:</label>
-        <input type="text">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" autocomplete="name" required minlength="2" maxlength="20">
         </div>
         <br>
         <div>
-        <label>Apellido:</label>
-        <input type="text">
+            <label>Apellido:</label>
+            <input type="text" name="apellido" autocomplete="family-name" required minlength="2" maxlength="20">
         </div>
         <br>
         <div>
-        <label>Fecha de nacimiento:</label>
-        <input type="date">
+            <label>Fecha de nacimiento:</label>
+            <input type="date">
         </div>
         <br>
         <div>
-        <label>Contraseña:</label>
-        <input type="password">
+            <label>Email:</label>
+            <input type="email" name="email" autocomplete="email" required minlength="6" maxlength="30">
         </div>
         <br>
         <div>
-        <label>Confirmar contraseña:</label>
-        <input type="password">
+            <label>Contraseña:</label>
+            <input type="password">
         </div>
         <br>
         <div>
-        <label>Cómo supiste de nosotres:</label>
-        <select name="referencia">
-            <option disabled>Seleccione una opción</option>
-            <optgroup label="internet">
-                <option>Email</option>
-                <option>Buscadores</option>
-                <option>Redes sociales</option>
-            </optgroup>
-            <optgroup label="Referencias externas">
-                <option>A través de amigues/familiares</option>
-                <option>En el trabajo</option>
-            </optgroup>
-        </select>
+            <label>Confirmar contraseña:</label>
+            <input type="password">
         </div>
         <br>
-        <button type="submit">Enviar</button>
+        <div>
+            <label>Cómo supiste de nosotres:</label>
+            <select name="referencia">
+                <option disabled>Seleccione una opción</option>
+                <optgroup label="internet">
+                    <option>Email</option>
+                    <option>Buscadores</option>
+                    <option>Redes sociales</option>
+                </optgroup>
+                <optgroup label="Referencias externas">
+                    <option>A través de amigues/familiares</option>
+                    <option>En el trabajo</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div>
+             <button type="submit">Enviar</button>
         </div>
       </form>
     </main>
