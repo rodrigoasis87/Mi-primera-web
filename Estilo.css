@@ -2,3 +2,38 @@ body {
   font-family: 'Ubuntu', 'Barlow', sans-serif;
 }
 
+body {
+  font-size: 13pt;
+}
+
+body {
+  line-height: 150%;
+}
+
+body {
+  color: #1c2b2d;
+}
+
+nav {
+  color: #1f6f8b;
+}
+
+h2 {
+  font-size: 16;
+}
+
+h2 {
+  color: #14274e
+}
+
+form {
+  font-size: 15px;
+}
+
+form {
+  font-weight: 500;
+}
+
+form {
+  color: #6a097d;
+}
