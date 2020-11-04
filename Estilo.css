@@ -14,26 +14,59 @@ body {
   color: #1c2b2d;
 }
 
-nav {
-  color: #1f6f8b;
+.items {
+  background-color: #6a097d;
+  color: #e8ead3;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
 }
+
+.items a {
+  color: #e8ead3
+}
+
+
 
 h2 {
   font-size: 16;
-}
-
-h2 {
-  color: #14274e
+  color: #14274e;
+  text-align: center;
 }
 
 form {
   font-size: 15px;
-}
-
-form {
   font-weight: 500;
+  color: #6a097d;
+  text-align: center;
 }
 
-form {
-  color: #6a097d;
+.fondo-formulario {
+  background-color: #ffe8df;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: #e8ead3;
+  font-family: 'Ubuntu', 'Barlow', sans-serif;
+  background-color: #6a097d;
+}
+
+.fondo-quienes-somos {
+  background-color: #ffe8df;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
