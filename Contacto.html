@@ -17,70 +17,71 @@
 <body>
     <header>
         <nav>
-            <a href="https://rodrigoasis87.github.io/Mi-primera-web/"><img src="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png" width="300"></a>
-            <br>
-                <ul type="square"  class="items">
-                <li><a href="https://rodrigoasis87.github.io/Mi-primera-web/Contacto.html">Contacto</a></li>
+            <a href="Index.html"><img src="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png" width="300"></a>
+            <ul type="square"  class="items">
+                <li><a href="Contacto.html">Contacto</a></li>
                 <br>
-                <li><a href="https://rodrigoasis87.github.io/Mi-primera-web/Quiénes-somos.html">Quiénes somos</a></li>
+                <li><a href="Quiénes somos.html">Quiénes somos</a></li>
                 <br>
-                <li><a href="https://rodrigoasis87.github.io/Mi-primera-web/Galería.html">Galería</a></li>
+                <li><a href="Galería.html">Galería</a></li>
             </ul>
         </nav>
     </header>
     <main>
-      <h2>Formulario de suscripción =)</h2>
-      <form>
-        <div>
-            <label>Nombre:</label>
-            <input type="text" name="nombre" autocomplete="name" required minlength="2" maxlength="20">
-        </div>
-        <br>
-        <div>
-            <label>Apellido:</label>
-            <input type="text" name="apellido" autocomplete="family-name" required minlength="2" maxlength="20">
-        </div>
-        <br>
-        <div>
-            <label>Fecha de nacimiento:</label>
-            <input type="date">
-        </div>
-        <br>
-        <div>
-            <label>Email:</label>
-            <input type="email" name="email" autocomplete="email" required minlength="6" maxlength="30">
-        </div>
-        <br>
-        <div>
-            <label>Contraseña:</label>
-            <input type="password">
-        </div>
-        <br>
-        <div>
-            <label>Confirmar contraseña:</label>
-            <input type="password">
-        </div>
-        <br>
-        <div>
-            <label>Cómo supiste de nosotres:</label>
-            <select name="referencia">
-                <option disabled>Seleccione una opción</option>
-                <optgroup label="internet">
-                    <option>Email</option>
-                    <option>Buscadores</option>
-                    <option>Redes sociales</option>
-                </optgroup>
-                <optgroup label="Referencias externas">
-                    <option>A través de amigues/familiares</option>
-                    <option>En el trabajo</option>
-                </optgroup>
-            </select>
-        </div>
-        <br>
-        <div>
-             <button type="submit">Enviar</button>
-        </div>
-      </form>
+      <div class="fondo-formulario">  
+         <h2>Formulario de suscripción =)</h2>
+         <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" autocomplete="name" required minlength="2" maxlength="20">
+            </div>
+            <br>
+            <div>
+                <label>Apellido:</label>
+                <input type="text" name="apellido" autocomplete="family-name" required minlength="2" maxlength="20">
+            </div>
+            <br>
+            <div>
+                <label>Fecha de nacimiento:</label>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" autocomplete="email" required minlength="6" maxlength="30">
+            </div>
+            <br>
+            <div>
+                <label>Contraseña:</label>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label>Confirmar contraseña:</label>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label>Cómo supiste de nosotres:</label>
+                <select name="referencia">
+                    <option disabled>Seleccione una opción</option>
+                    <optgroup label="internet">
+                        <option>Email</option>
+                        <option>Buscadores</option>
+                        <option>Redes sociales</option>
+                    </optgroup>
+                    <optgroup label="Referencias externas">
+                        <option>A través de amigues/familiares</option>
+                        <option>En el trabajo</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+         </form>
+      </div>
     </main>
     <footer>
         <div>
