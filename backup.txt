@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contacto</title>
+    <meta name="description" content="periodismo hasta mancharse">
+    <meta property="og:url" content="https://rodrigoasis87.github.io/Mi-primera-web/Quiénes-somos.html">
+    <meta property="og:image" content="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png">
+    <meta property="og:title" content="La tinta">
+    <meta property="og:description" content="Quiénes somos">
+    <meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,600;1,200;1,600&display=swap" rel="stylesheet">
+    <link href="Estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index.html"><img src="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png" width="300"></a>
+            <ul type="square"  class="items">
+                <li><a href="Contacto.html">Contacto</a></li>
+                <br>
+                <li><a href="Quiénes somos.html">Quiénes somos</a></li>
+                <br>
+                <li><a href="Galería.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="fondo-quienes-somos">
+        <h2>Quiénes somos:</h2>
+        <p>
+            La tinta | Medio de comunicación cooperativo con información y noticias de Córdoba, Argentina y el mundo. Periodismo social desde los medios alternativos. Una herramienta para recuperar la voz, visibilizar nuestras luchas, nuestras demandas y nuestras victorias; compartir las miradas sobre el mundo, la realidad y difundir las alternativas que estamos caminando.
+        </p>
+        <aside>
+            <p>
+                (*) Los medios, periodistas y colectivos que colaboran no necesariamente comparten la línea editorial de todo el contenido difundido por La Tinta.
+            </p>
+        </aside>
+    </main>
+    <footer>
+        <div>
+          <h6> Estas obras están bajo una Licencia Creative Commons Atribución-NoComercial 3.0 Unported </h6>
+        </div>
+    </footer>
+</body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contacto</title>
+    <meta name="description" content="periodismo hasta mancharse">
+    <meta property="og:url" content="https://rodrigoasis87.github.io/Mi-primera-web/Galería.html">
+    <meta property="og:image" content="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png">
+    <meta property="og:title" content="La tinta">
+    <meta property="og:description" content="Galería">
+    <meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,600;1,200;1,600&display=swap" rel="stylesheet">
+    <link href="Estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index.html"><img src="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png" width="300"></a>
+            <ul type="square"  class="items">
+                <li><a href="Contacto.html">Contacto</a></li>
+                <br>
+                <li><a href="Quiénes somos.html">Quiénes somos</a></li>
+                <br>
+                <li><a href="Galería.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Sección humor:</h2>
+            </div>
+            <div>
+                <h3>Imágenes</h3>
+            </div>
+            <figure>
+                <div>
+                    <img src="https://latinta.com.ar/wp-content/uploads/2020/10/186_JOJOJO-Tinta-China-Jo-Rivadulla.jpg" alt="Jo Rivadula" width="400">
+                </div>
+                <div>
+                    <img src="https://latinta.com.ar/wp-content/uploads/2019/07/humanadas_79_web-Ziga-Tinta-China.jpg" alt="Iván Zigarán" width="400">
+                </div>
+            </figure>
+            <div>
+                <h3>Videos</h3>
+            </div>
+            <figure>
+                <video controls src="https://www.facebook.com/830451400319456/videos/3696781667108204/" type="video/website">
+                </video>
+            </figure>
+            <div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h6> Estas obras están bajo una Licencia Creative Commons Atribución-NoComercial 3.0 Unported </h6>
+        </div>
+    </footer>
+</body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+       <title>La tinta</title>
+    <meta name="description" content="periodismo hasta mancharse">
+    <meta property="og:url" content="https://rodrigoasis87.github.io/Mi-primera-web/">
+    <meta property="og:image" content="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png">
+    <meta property="og:title" content="La tinta">
+    <meta property="og:description" content="Inicio">
+    <meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,600;1,200;1,600&display=swap" rel="stylesheet">
+    <link href="Estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+      <nav>
+          <a href="Index.html"><img src="https://latinta.com.ar/wp-content/uploads/2016/05/la-tinta-LOGO.png" width="300"></a>
+          <ul type="square"  class="items">
+              <li><a href="Contacto.html">Contacto</a></li>
+              <br>
+              <li><a href="Quiénes somos.html">Quiénes somos</a></li>
+              <br>
+              <li><a href="Galería.html">Galería</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="seccion-principal">
+          <figure>
+            <a href="https://latinta.com.ar/2020/10/cruz-del-eje-diario-idea-linotipista/"><img src="https://latinta.com.ar/wp-content/uploads/2020/10/ubelino-la-idea-cruzdeleje-linotipo8.jpg" width="800"></a>
+          </figure>
+            <h2><a href="https://latinta.com.ar/2020/10/cruz-del-eje-diario-idea-linotipista/">Cruz del Eje, un diario centenario y el último linotipista</a></h1>
+          <figure>
+            <a href="https://latinta.com.ar/2020/10/proponen-suspender-desalojos-crear-banco-nacional-tierras-plan-viviendas-populares/"><img src="https://latinta.com.ar/wp-content/uploads/2020/10/desalojo-tierra-vivienda-encuentro-guernica-2.jpg" width="400"></a>
+          </figure>
+            <h2><a href="https://latinta.com.ar/2020/10/proponen-suspender-desalojos-crear-banco-nacional-tierras-plan-viviendas-populares/">Proponen suspender desalojos, crear un Banco Nacional de Tierras y un plan de viviendas populares</a></h2>
+        </section>
+    </main>
+    <footer>
+        <div>
+          <h6> Estas obras están bajo una Licencia Creative Commons Atribución-NoComercial 3.0 Unported </h6>
+        </div>
+    </footer>
+  </body>
+</html>
