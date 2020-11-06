@@ -4,13 +4,7 @@ body {
 
 body {
   font-size: 13pt;
-}
-
-body {
   line-height: 150%;
-}
-
-body {
   color: #1c2b2d;
 }
 
@@ -30,9 +24,14 @@ body {
   color: #e8ead3
 }
 
+.seccion-principal {
+  background-color: #ffe8df;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
-
-h2 {
+.titulo-formulario {
   font-size: 16;
   color: #14274e;
   text-align: center;
