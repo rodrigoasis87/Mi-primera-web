@@ -69,3 +69,10 @@ button {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+
+.fondo-galeria {
+  background-color: #ffe8df;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
